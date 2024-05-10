@@ -44,19 +44,19 @@ function GridSheet() {
     <div>
       <Grid container spacing={0.5}>
         <Grid item xs={2}>
-        <TextField id="standard-basic" variant="standard" />
+        <TextField id="standard-basic" sx={{input: {textAlign: "center"}}} variant="standard" />
         </Grid>
         <Grid item xs={2}>
-        <TextField id="standard-basic" variant="standard" />
+        <TextField id="standard-basic" sx={{input: {textAlign: "center"}}} variant="standard" />
         </Grid>
         <Grid item xs={2}>
-        <TextField id="standard-basic" fullWidth variant="standard" />
+        <TextField id="standard-basic" sx={{input: {textAlign: "center"}}} fullWidth variant="standard" />
         </Grid>
         <Grid item xs={2}>
-        <TextField id="standard-basic" variant="standard" />
+        <TextField id="standard-basic" sx={{input: {textAlign: "center"}}} variant="standard" />
         </Grid>
         <Grid item xs={2}>
-        <TextField id="standard-basic" variant="standard" />
+        <TextField id="standard-basic" sx={{input: {textAlign: "center"}}} variant="standard" />
         </Grid>
         <Grid item xs={2}>
         {selectedComponent && selectedComponent}   
