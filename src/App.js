@@ -6,7 +6,7 @@ import GridSheet from "./GridSheet";
 
 
 function App() {
-    const numTimes = 30;
+    const numTimes = 32;
     const elements = [];
     for (let i = 0; i < numTimes; i++) {
       elements.push(<GridSheet />);

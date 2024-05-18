@@ -18,10 +18,10 @@ const StyledRatingRed = styled(Rating)({
 
 const StyledRatingGreen = styled(Rating)({
   "& .MuiRating-iconFilled": {
-    color: "#00ff00",
+    color: "#00B050",
   },
   "& .MuiRating-iconHover": {
-    color: "#00c900",
+    color: "#00781a",
   },
 });
 
